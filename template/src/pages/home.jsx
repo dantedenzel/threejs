@@ -1,9 +1,9 @@
 import React from 'react'
 
 const home = () => {
-    return (
+  return (
     <div>home</div>
-    )
+  )
 }
 
 export default home

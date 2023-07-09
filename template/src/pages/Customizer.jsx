@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Customizer = () => {
-    return (
+  return (
     <div>Customizer</div>
-    )
+  )
 }
 
 export default Customizer
