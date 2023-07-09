@@ -1,9 +1,17 @@
-import React from 'react'
+import { motion, AnimatePresence } from 'framer-motion';
+import { useSnapshot } from 'valtio';
 
-const home = () => {
+import {
+    headContainerAnimation,
+    headtContentAnimation,
+    headTextAnimation,
+    slideAnimation
+} from '../config/motion';
+
+const Home = () => {
     return (
-    <div>home</div>
+    <div>Home</div>
     )
 }
 
-export default home
+export default Home
