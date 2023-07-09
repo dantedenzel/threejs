@@ -1,6 +1,6 @@
-import Canvas from './canvas';
-import customizer from './pages/Customizer';
-import Home from './pages/Home';
+// import Canvas from './canvas';
+// import customizer from './pages/Customizer';
+// import Home from './pages/Home';
 
 function App() {
   return (
@@ -9,5 +9,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
