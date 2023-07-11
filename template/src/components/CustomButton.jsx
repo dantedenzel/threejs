@@ -1,5 +1,7 @@
 import React from 'react'
 
+import state from '../store';
+
 const CustomButton = ({ type, title, customStyles, handleClick}) => {
 
     const generateStyle = (type) => {
