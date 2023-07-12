@@ -23,4 +23,4 @@ return (
 )
 }
 
-export default Canvas
+export default CanvasModel
