@@ -28,7 +28,7 @@ const Home = () => {
                     <motion.div className="home-content" {...headContainerAnimation}>
                         <motion.div {...headTextAnimation}>
                             <h1 className="head-text">
-                                LET'S <br className="x1:block hidden" /> DO IT.
+                                <br className="x1:block hidden" /> AI - 3D MODEL.
                             </h1>
                         </motion.div>
                         <motion.div
