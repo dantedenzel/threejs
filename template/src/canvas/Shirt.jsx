@@ -47,7 +47,7 @@ const Shirt = () => {
               depthTest={false}
               depthWrite={true}
 
-              // f
+              // figure out solution
             />
           )}
       </mesh>
