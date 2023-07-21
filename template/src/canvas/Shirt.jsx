@@ -13,7 +13,7 @@ const Shirt = () => {
   const logoTexture = useTexture(snap.logoDecal);
   const fullTexture = useTexture(snap.fullDecal);
 
-  useFrame((state, delta) => easing.dampC(materials.lambert1.color,
+  useFrame((_, delta) => easing.dampC(materials.lambert1.color,
     snap.color, 0.25, delta));
 
     const stateString = JSON.stringify(snap);
@@ -47,7 +47,7 @@ const Shirt = () => {
               depthTest={false}
               depthWrite={true}
 
-              // figure out a solution
+              // figure out a solution  --- leave it out of code per chat request
             />
           )}
       </mesh>
