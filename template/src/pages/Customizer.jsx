@@ -74,7 +74,7 @@ const readFile = (type) => {
       setActiveEditorTab("");
     })
 }
-// comment
+// comments
   return (
     <AnimatePresence>
       {!snap.intro && (
