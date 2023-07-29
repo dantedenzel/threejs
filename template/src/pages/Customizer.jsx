@@ -44,7 +44,7 @@ const generateTabContent = () => {
   }
 }
 
-const handleDecals = (type, result0) => {
+const handleDecals = (type, result) => {
   const decalType = DecalTypes[type];
 
   state[decalType.stateProperty] = result;
