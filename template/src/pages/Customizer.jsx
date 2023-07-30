@@ -20,12 +20,12 @@ const Customizer = () => {
   const [generatingImg, setGeneratingImg] = useState(false); 
 
   const [activeEditorTab, setActiveEditorTab] = useState("");
-  const [activeFilterTab, setFilterTab] = useState({
+  const [activeFilterTab, setActiveFilterTab] = useState({
     logoShirt: true, 
     stylishShirt:false,
   })
 
-  // setActiveFilter doesn't exist atm
+
 // show tab content depending on the active tab 
 const generateTabContent = () => {
   switch (activeEditorTab) {
@@ -69,7 +69,7 @@ const handleActiveFilterTab = (tabName) => {
 
   // after setting the state, activeFilterTab is updated
 
-    setActiveFilterTab((prevState) => {
+  setActiveFilterTab((prevState) => {
       return {
         ...prevState,
         [tabName]: !prevState[tabName]
