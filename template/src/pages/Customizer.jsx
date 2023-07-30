@@ -25,7 +25,7 @@ const Customizer = () => {
     stylishShirt:false,
   })
 
-// show tab content depending on the active tab s
+// show tab content depending on the active tab where we can setup new feature
 const generateTabContent = () => {
   switch (activeEditorTab) {
     case "colorpicker":
