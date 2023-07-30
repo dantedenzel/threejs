@@ -25,7 +25,8 @@ const Customizer = () => {
     stylishShirt:false,
   })
 
-// show tab content depending on the active tab where we can setup new feature
+  // setActiveFilter doesn't exist atm
+// show tab content depending on the active tab 
 const generateTabContent = () => {
   switch (activeEditorTab) {
     case "colorpicker":
@@ -65,7 +66,16 @@ const handleActiveFilterTab = (tabName) => {
     state.isLogoTexture = false;
     state.isFullTexture = true;
   }
-}
+
+  // after setting the state, activeFilterTab is updated
+
+    setActiveFilterTab((prevState) => {
+      return {
+        ...prevState,
+        [tabName]: !prevState[tabName]
+      }
+    })
+  }
 
 const readFile = (type) => {
   reader(file)
@@ -120,8 +130,8 @@ const readFile = (type) => {
             key={tab.name}
             tab={tab}
             isFilterTab
-            isActiveTab=""
-            handleClick={() => {}}
+            isActiveTab={activeFilterTab[tab.name]}
+            handleClick={() => handleActiveFilterTab(tab.name)}
           />
         ))}
           </motion.div>
