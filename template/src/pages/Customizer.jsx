@@ -99,7 +99,7 @@ const handleActiveFilterTab = (tabName) => {
     state.isFullTexture = true;
   }
 
-  // after setting the state, activeFilterTab is updated through 
+  // after setting the state, activeFilterTab is updated 
 
   setActiveFilterTab((prevState) => {
       return {
