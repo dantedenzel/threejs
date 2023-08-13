@@ -8,4 +8,4 @@ import stylishShirt from "./stylish-tshirt.png";
 
 export { ai, fileIcon, swatch, download, logoShirt, stylishShirt };
 
-// new imports can go in from the
+// new imports can go in from t
