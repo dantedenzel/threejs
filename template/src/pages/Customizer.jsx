@@ -39,7 +39,7 @@ const generateTabContent = () => {
 
       />
     case "aipicker":
-      return <AIPicker 
+      return <AIPicker                                                                                                        
         prompt={prompt}
         setPrompt={setPrompt}
         generatingImg={generatingImg}
@@ -99,7 +99,7 @@ const handleActiveFilterTab = (tabName) => {
     state.isFullTexture = true;
   }
 
-  // after setting the state, activeFilterTab is updated ()
+  // after setting the state, activeFilterTab is updated () (*)
 
   setActiveFilterTab((prevState) => {
       return {
