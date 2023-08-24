@@ -17,7 +17,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// ends here....
+// ends here...
 const config = new Configuration({
     apiKey: process.env['OPEN_AI_KEY'],
 });
