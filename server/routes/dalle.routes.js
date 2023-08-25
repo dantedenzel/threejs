@@ -18,6 +18,7 @@ app.use((req, res, next) => {
 });
 
 // ends here...
+// get new features from dalle
 const config = new Configuration({
     apiKey: process.env['OPEN_AI_KEY'],
 });
