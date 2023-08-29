@@ -23,7 +23,7 @@ useFrame((state, delta) =>{
     else targetPosition = [0, 0, 2];
   }
 
-  // set camera model position 
+  // set camera model positios
   easing.damp3(state.camera.position, targetPosition, 0.25, delta)
 
   // set the model rotation smoothly
