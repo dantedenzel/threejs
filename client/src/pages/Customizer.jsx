@@ -56,8 +56,8 @@ const handleSubmit = async (type) => {
   try {
     setGeneratingImg(true);
 
-    const response = await fetch('localhost:8080/api/v1/dalle', {
-      method:'POST',
+    const response = await fetch('http://localhost:8080/api/v1/dalle', {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
@@ -94,9 +94,11 @@ const handleActiveFilterTab = (tabName) => {
     break;
   case "stylishShirt":
     state.isFullTexture = !activeFilterTab[tabName];
+    break;
   default:
     state.isLogoTexture = false;
     state.isFullTexture = true;
+    break;
   }
 
   // after setting the state, activeFilterTab is updated 
