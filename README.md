@@ -1,6 +1,6 @@
 SkynetShirts
 
-![zfGmmQDeY79NKROsZIRW--1--q2soq](https://github.com/dantedenzel/threejs/assets/93058935/05d0ec0c-0d75-4389-ae19-7d3725e06903)|width:100px;
+![zfGmmQDeY79NKROsZIRW--1--q2soq](https://github.com/dantedenzel/threejs/assets/93058935/05d0ec0c-0d75-4389-ae19-7d3725e06903|width=100)
 
 
 Welcome to the SkynetShirts website GitHub repository. This repository contains the source code and related files for the SkynetShirts website, which offers a range of stylish and customizable T-shirts.
